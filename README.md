@@ -1,1 +1,1 @@
-This repository contains solutions to low level programming
+trying to work alone
