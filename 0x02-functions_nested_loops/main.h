@@ -1,6 +1,6 @@
-#ifndef MAIN.H
+#ifndef MAIN . H;
 
-#define MAIN.H;
+#define   MAIN.H;
 
 void print_alphabet(void);
 void print_alphabet_x10(void);
