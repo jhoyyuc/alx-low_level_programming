@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_array - Prints the n elements of an array
+ * print_array - prints the n elements of an array
  * @a: array to print
  * @n: number of elements in the array
  */
@@ -17,5 +17,5 @@ void print_array(int *a, int n)
 		else
 			printf("%d, ", *(a + i));
 	}
-	printf('\n');
+	printf("\n");
 }
