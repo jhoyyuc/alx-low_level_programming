@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * memset - Fills memory with a constant byte
+ * _memset - fills memory with a constant byte
  *
  * @s: ptr to starting address of desired memory block
  * @b: value to fill
@@ -9,6 +9,7 @@
  *
  * Return: s
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
