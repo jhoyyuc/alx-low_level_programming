@@ -6,7 +6,8 @@
  * @haystack: string to be scanned
  * @needle: string to locate
  *
- * return: pointer to located substring if no match or NULL if no match
+ * Return: pointer to located substring if match or
+ * NULL if no match
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -14,7 +15,6 @@ char *_strstr(char *haystack, char *needle)
 
 	while (needle[len] != '\0')
 		len++;
-
 	for (j = 0; ; j++)
 	{
 		if (haystack[j] == '\0')
@@ -26,6 +26,7 @@ char *_strstr(char *haystack, char *needle)
 				break;
 			j++;
 			k++;
+
 		}
 		if (needle[k] == '\0')
 		{
