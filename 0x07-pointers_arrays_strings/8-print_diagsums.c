@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - prints sum of the diagonals of matrix
- *
+ * print_diagsums - prints sum of the two diagonals of matrix
  * @a: array decayed to pointer
  * @size: size of array
  */
@@ -13,7 +12,7 @@ void print_diagsums(int *a, int size)
 
 	int i, n1, sum1, n2, sum2;
 
-	size = size + size;
+	size = size * size;
 
 	/*main diagonal*/
 	i = 0;
